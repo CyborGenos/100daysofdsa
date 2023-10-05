@@ -66,7 +66,7 @@ void solution() {
         cout<<common[i]<<" ";
     }
     cout<<endl;
-
+return 0;
 }
 int main() {
     srand(chrono::high_resolution_clock::now().time_since_epoch().count());
