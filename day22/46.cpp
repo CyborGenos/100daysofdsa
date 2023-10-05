@@ -60,6 +60,7 @@ void solution() {
     }
     sort(full, full+(n*m));
     cout<<full[n*m/2]<<endl;
+    return 0;
 }
 int main() {
     srand(chrono::high_resolution_clock::now().time_since_epoch().count());
