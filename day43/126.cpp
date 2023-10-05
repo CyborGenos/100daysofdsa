@@ -57,6 +57,7 @@ void printCombination(int arr[], int n, int r)
   
     // Print all combination using temporary array 'data[]'
     combinationUtil(arr, n, r, 0, data, 0);
+    return 0;
 }
   
 /* arr[]  ---> Input Array
